@@ -9,7 +9,7 @@
 	"loglevel": "DEBUG",
 	"pull_delay": "30",
 	"micro": {
-		"api_url": "http://api.pathofexile.com/shop/microtransactions/specials?type=active&platform=PC",
+		"api_url": "http://pathofexile.com/api/shop/microtransactions/specials?type=active&platform=PC",
 		"specials_url": "https://pathofexile.com/shop/category/daily-deals",
 		"output_file": "micro_output.txt"
 	},
