@@ -1,0 +1,14 @@
+services:
+  sidebarbot:
+    image: sidebarbot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sidebarbot
+    tty: true
+    stdin_open: true
+    volumes:
+      - refresh_token:/app
+
+volumes:
+  refresh_token:

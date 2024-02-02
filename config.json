@@ -1,0 +1,12 @@
+{
+    "auth": {
+        "client_id": "id here",
+        "client_secret": "secret here",
+        "redirect_uri": "http://localhost:8080",
+        "user_agent": "sidebarbot"
+    },
+    "api": {
+        "sale": "https://pathofexile.com/api/shop/microtransactions/specials"
+    },
+    "parse_target": "stash"
+}
